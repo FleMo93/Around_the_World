@@ -25,11 +25,13 @@ public class scr_CustomGravity : MonoBehaviour {
     {
         Vector3 direction = (_GravityCenter.transform.position - this.transform.position).normalized;
 
-        Vector3 velocity = myRigidbody.velocity + (direction * myRigidbody.mass * Time.fixedDeltaTime);
+        Vector3 velocity = (direction * _GravityStrength * -1 * myRigidbody.mass * Time.fixedDeltaTime);
+
+        myRigidbody.AddForce(velocity);
 
         //velocity.y -= myRigidbody.mass * Time.fixedDeltaTime;
 
-        myRigidbody.velocity = velocity;
+        //myRigidbody.velocity = velocity;
 
         //Vector3 newVelocity = direction * myRigidbody.velocity.magnitude;
         //myRigidbody.velocity = newVelocity;

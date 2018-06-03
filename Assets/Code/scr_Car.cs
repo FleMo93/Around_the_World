@@ -26,7 +26,7 @@ public class scr_Car : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        myRigidbody.AddForce(_MovementSpeed * Time.fixedDeltaTime * this.transform.forward);
+        //myRigidbody.AddForce(_MovementSpeed * Time.fixedDeltaTime * this.transform.forward);
         
     }
 }
