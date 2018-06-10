@@ -11,6 +11,9 @@ public class scr_DestroyAfter : MonoBehaviour
 	void Update () {
         _DestoryAfter -= Time.deltaTime;
 
-        Destroy(this.gameObject);
+        if (_DestoryAfter <= 0)
+        {
+            Destroy(this.gameObject);
+        }
 	}
 }

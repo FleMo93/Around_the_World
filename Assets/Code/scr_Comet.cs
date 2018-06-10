@@ -12,6 +12,8 @@ public class scr_Comet : MonoBehaviour {
     private GameObject _MeshHolder;
     [SerializeField]
     private float _RotationSpeed = 5;
+    [SerializeField]
+    private GameObject _CraterPrefab;
 
     Vector3 rotation;
 
@@ -47,6 +49,7 @@ public class scr_Comet : MonoBehaviour {
 
         if(collision.gameObject == GameObject.FindGameObjectWithTag(scr_Tags.World))
         {
+            Instantiate(_CraterPrefab).transform.position = this.transform.position;
             Destroy(this.gameObject);
         }
         else
