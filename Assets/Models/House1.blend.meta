@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: a62894df85d0d714eaae719ea13a88c8
+guid: 0c4b957673a68e446b240bc9aea8ecd5
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: unnamed
+    2100000: None__UV
     2300000: //RootNode
     3300000: //RootNode
     4300000: Sphere
@@ -43,7 +43,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.5
+    globalScale: 1.5
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
@@ -65,7 +65,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 0

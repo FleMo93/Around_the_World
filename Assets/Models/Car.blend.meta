@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 8f74aa1d7331f2f4eb811189cd0b6a2c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BezierCurve
+    100002: //RootNode
+    100004: Cube
+    100006: Cube_001
+    100008: Cube_002
+    100010: Cube_003
+    100012: Cube_004
+    100014: Cube_005
+    100016: Cylinder
+    100018: Cylinder_001
+    100020: Cylinder_002
+    100022: Body
+    100024: Bumper
+    100026: Bumper_Back
+    100028: Cooler
+    100030: Exhaust
+    100032: Fender
+    100034: Gasp
+    100036: Lights
+    100038: Spoiler1
+    100040: Spoiler2
+    100042: Spoiler3
+    100044: Wheels
+    100046: Windows
+    100048: Glass
+    100050: MIrrow
+    100052: Tire
+    400000: BezierCurve
+    400002: //RootNode
+    400004: Cube
+    400006: Cube_001
+    400008: Cube_002
+    400010: Cube_003
+    400012: Cube_004
+    400014: Cube_005
+    400016: Cylinder
+    400018: Cylinder_001
+    400020: Cylinder_002
+    400022: Body
+    400024: Bumper
+    400026: Bumper_Back
+    400028: Cooler
+    400030: Exhaust
+    400032: Fender
+    400034: Gasp
+    400036: Lights
+    400038: Spoiler1
+    400040: Spoiler2
+    400042: Spoiler3
+    400044: Wheels
+    400046: Windows
+    400048: Glass
+    400050: MIrrow
+    400052: Tire
+    2100000: unnamed
+    2300000: BezierCurve
+    2300002: Cube
+    2300004: Cube_001
+    2300006: Cube_002
+    2300008: Cube_003
+    2300010: Cube_004
+    2300012: Cube_005
+    2300014: Cylinder
+    2300016: Cylinder_001
+    2300018: Cylinder_002
+    2300020: Body
+    2300022: Bumper
+    2300024: Bumper_Back
+    2300026: Cooler
+    2300028: Exhaust
+    2300030: Fender
+    2300032: Gasp
+    2300034: Lights
+    2300036: Spoiler1
+    2300038: Spoiler2
+    2300040: Spoiler3
+    2300042: Wheels
+    2300044: Windows
+    2300046: Glass
+    2300048: MIrrow
+    2300050: Tire
+    3300000: BezierCurve
+    3300002: Cube
+    3300004: Cube_001
+    3300006: Cube_002
+    3300008: Cube_003
+    3300010: Cube_004
+    3300012: Cube_005
+    3300014: Cylinder
+    3300016: Cylinder_001
+    3300018: Cylinder_002
+    3300020: Body
+    3300022: Bumper
+    3300024: Bumper_Back
+    3300026: Cooler
+    3300028: Exhaust
+    3300030: Fender
+    3300032: Gasp
+    3300034: Lights
+    3300036: Spoiler1
+    3300038: Spoiler2
+    3300040: Spoiler3
+    3300042: Wheels
+    3300044: Windows
+    3300046: Glass
+    3300048: MIrrow
+    3300050: Tire
+    4300000: Cube_005
+    4300002: Cube_004
+    4300004: Cube_003
+    4300006: Cube_002
+    4300008: Cube_001
+    4300010: BezierCurve
+    4300012: Cylinder_001
+    4300014: Cylinder
+    4300016: Cube
+    4300018: Cylinder_002
+    4300020: Spoiler2
+    4300022: Spoiler1
+    4300024: Windows
+    4300026: Bumper_Back
+    4300028: Bumper
+    4300030: Fender
+    4300032: Gasp
+    4300034: Cooler
+    4300036: Lights
+    4300038: Spoiler3
+    4300040: Exhaust
+    4300042: Wheels
+    4300044: Body
+    4300046: Glass
+    4300048: MIrrow
+    4300050: Tire
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.8
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
