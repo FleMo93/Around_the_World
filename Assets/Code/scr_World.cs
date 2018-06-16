@@ -9,13 +9,12 @@ public class scr_World : MonoBehaviour {
     [SerializeField]
     private float _MinRadius = 10f;
 
-	void Start ()
-    {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    void Update () {
+        if (!scr_Game.Get.GameRunning)
+        {
+            return;
+        }
+
         float decrease = _DecreasePerSecond * Time.deltaTime;
 
         if (transform.lossyScale.x - decrease < _MinRadius)

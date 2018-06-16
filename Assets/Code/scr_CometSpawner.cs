@@ -21,6 +21,11 @@ public class scr_CometSpawner : MonoBehaviour {
 	}
 	
 	void Update () {
+        if (!scr_Game.Get.GameRunning)
+        {
+            return;
+        }
+
         timeToSpawn -= Time.deltaTime;
 
         if(timeToSpawn <= 0)

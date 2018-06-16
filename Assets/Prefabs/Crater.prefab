@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 23633362706886238}
   - component: {fileID: 114090991851786546}
   - component: {fileID: 114909695656730828}
+  - component: {fileID: 135387977903504762}
   m_Layer: 0
   m_Name: Crater
-  m_TagString: Untagged
+  m_TagString: Crater
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1421608370667506}
   m_LocalRotation: {x: -0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 50, z: 0}
+  m_LocalPosition: {x: -3.1523197, y: 100.245514, z: 1.465885}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -108,3 +109,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _DestoryAfter: 3
+--- !u!135 &135387977903504762
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1421608370667506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.6618935
+  m_Center: {x: 0.0055810213, y: -0.00976, z: -0.046510458}

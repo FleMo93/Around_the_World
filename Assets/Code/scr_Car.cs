@@ -25,13 +25,29 @@ public class scr_Car : MonoBehaviour {
     [SerializeField]
     private float _ModelRotationSpeed = 5f;
 
-    Vector3 ovel;
+    public bool Alive { private set; get; }
+
+    private void Start()
+    {
+        Alive = true;
+        _Move = false;
+
+        scr_Game.Get.OnGameStart += () =>
+        {
+            _Move = true;
+        };
+    }
 
     private void Update()
     {
+        if(!scr_Game.Get.GameRunning)
+        {
+            return;
+        }
+
         Quaternion tar = Quaternion.identity;
         //_Model.transform.rotation = this.transform.rotation;
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(scr_Keys.DriveLeft))
         {
             transform.Rotate(transform.InverseTransformDirection(transform.transform.up), _RotationSpeed * Time.deltaTime * -1);
 
@@ -40,7 +56,7 @@ public class scr_Car : MonoBehaviour {
 
             //_Model.transform.rotation. (_Model.transform.up, -_ModelRotation);
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(scr_Keys.DriveRight))
         {
             transform.Rotate(transform.InverseTransformDirection(transform.transform.up), _RotationSpeed * Time.deltaTime);
             tar = GetModelTargetRot(_ModelRotation);
@@ -67,6 +83,7 @@ public class scr_Car : MonoBehaviour {
         return target;
     }
 
+    Vector3 ovel;
     private void FixedUpdate()
     {
         Physics.gravity = (_World.transform.position - this.transform.position).normalized * _GravityMultiplier;
@@ -96,5 +113,14 @@ public class scr_Car : MonoBehaviour {
 
         Vector3 endPoint = startPoint + (dir * length);
         this.transform.position = endPoint;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == scr_Tags.Comet || collision.gameObject.tag == scr_Tags.Crater)
+        {
+            Alive = false;
+            _Move = false;
+        }
     }
 }
